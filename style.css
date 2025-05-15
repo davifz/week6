@@ -1,4 +1,5 @@
 /* Container centralizado */
+/* Container centralizado */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -9,31 +10,31 @@
 /* Bloco com texto e imagem lado a lado */
 .bloco-destaque {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
   margin-bottom: 40px;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Alinha à esquerda */
 }
 
-/* Inverter imagem e texto no segundo bloco */
-.bloco-inverso {
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-
-/* Estilo do texto */
+/* Estilização do primeiro parágrafo (Texto 1) */
 .texto-destaque {
-  color: #2C3E50;
-  font-family: 'Arial', sans-serif;
+  color: #2C3E50; /* Cor forte para o texto (um tom de azul escuro) */
+  font-family: 'Arial', sans-serif; /* Fonte Arial */
   font-size: 18px;
   line-height: 1.6;
-  max-width: 500px;
-  text-align: justify;
+  max-width: 500px; /* Limita a largura do parágrafo */
+  text-align: justify; /* Justifica o texto */
 }
 
-/* Estilo da imagem */
+/* Estilização da primeira imagem */
 .imagem-destaque {
-  width: 350px;
+  width: 350px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
+}
+
+.imagem-destaque2 {
+    width: 350px; /* Aumenta o tamanho da imagem */
   height: auto;
   border-radius: 8px;
 }
