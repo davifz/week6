@@ -22,7 +22,7 @@
   font-family: 'Arial', sans-serif; /* Fonte Arial */
   font-size: 18px;
   line-height: 1.6;
-  max-width: 500px; /* Limita a largura do parágrafo */
+  max-width: 350px; /* Limita a largura do parágrafo */
   text-align: justify; /* Justifica o texto */
 }
 
